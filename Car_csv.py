@@ -1,3 +1,19 @@
+'''
+Вам необходимо создать свою иерархию классов для данных, которые описаны в таблице.
+
+BaseCar
+
+Car(BaseCar)
+
+Truck(BaseCar)
+
+SpecMachine(BaseCar)
+
+У любого объекта есть обязательный атрибут car_type.
+Он означает тип объекта и может принимать одно из значений: car, truck, spec_machine.
+'''
+
+
 import os
 import csv
 
